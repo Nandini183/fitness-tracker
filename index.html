@@ -1,1 +1,38 @@
-Initial project setup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness Routine Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <center>
+      <h1>Fitness Routine Tracker</h1>
+      <h2>Strength, Endurance, and a Healthier You</h2>
+      <img src="images/workout.png" alt="Workout" />
+    </center>
+  </header>
+
+  <main>
+    <section id="tracker">
+      <h2>Track Your Workout</h2>
+      <form id="workout-form">
+        <label for="workout">Workout:</label>
+        <input type="text" id="workout" name="workout" required />
+
+        <label for="duration">Duration (minutes):</label>
+        <input type="number" id="duration" name="duration" required />
+
+        <button type="submit">Add Workout</button>
+      </form>
+
+      <ul id="workout-list"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
