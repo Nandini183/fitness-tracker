@@ -20,6 +20,7 @@ form.addEventListener("submit", function (event) {
   deleteBtn.style.border = "none";
   deleteBtn.style.background = "transparent";
   deleteBtn.style.cursor = "pointer";
+  deleteBtn.style.color = "black";
   deleteBtn.onclick = function () {
     listItem.remove();
   };
